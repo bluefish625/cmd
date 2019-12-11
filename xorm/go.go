@@ -26,6 +26,7 @@ var (
 			"gt":         gt,
 			"getCol":     getCol,
 			"UpperTitle": upTitle,
+			"UpperFirstLetter": upperFirstLetter,
 		},
 		formatGo,
 		genGoImports,

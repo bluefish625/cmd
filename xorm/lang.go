@@ -63,3 +63,15 @@ func upTitle(src string) string {
 
 	return strings.ToUpper(src)
 }
+
+func upperFirstLetter(src string) string {
+
+	if len(src) < 1 {
+		return ""
+	}
+	strArry := []rune(src)
+	if strArry[0] >= 97 && strArry[0] <= 122  {
+		strArry[0] -=  32
+	}
+	return string(strArry)
+}
